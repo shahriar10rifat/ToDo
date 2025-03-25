@@ -53,3 +53,7 @@ h1{
     color: var(--text-color);
     caret-color: var(--accent-color);
 }
+
+#todo-input:focus{
+    outline: none;
+}
