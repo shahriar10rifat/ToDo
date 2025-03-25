@@ -1,5 +1,5 @@
 :root{
-    --background : #101114;
+    --background : #191933;
     --primary-color: #1C1D20;
     --secondary-color: #4A4D57;
     --accent-color: #00b7ff;
@@ -46,6 +46,7 @@ h1{
 #todo-input{
     box-sizing: border-box;
     padding: 12px 20px;
+    width: 100%;
     background: none;
     border: 2px solid var(--secondary-color);
     border-radius: 1000px;
@@ -54,6 +55,47 @@ h1{
     caret-color: var(--accent-color);
 }
 
+
 #todo-input:focus{
     outline: none;
+}
+
+/* using form to marge the button in search bar */
+form{
+    position: relative;
+}
+
+#add-button{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    /* styling button */
+    background-color: var(--accent-color);
+    height: 100%;
+    padding: 0 30px;
+    border: none;
+    border-radius: 1000px;
+    font: inherit;
+    font-weight: 600;
+    color: var(--background);
+    cursor: pointer;
+
+}
+
+/* customizing todo lists */
+.todo{
+    margin-bottom: 10px;
+    padding: 0 16px;
+    background-color: var(--primary-color);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.todo .todo-text{
+    padding: 15px;
+    padding-right: 0;
+    flex-grow: 1;
+    
 }
