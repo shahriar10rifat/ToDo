@@ -97,5 +97,84 @@ form{
     padding: 15px;
     padding-right: 0;
     flex-grow: 1;
-    
+    transition: 200ms ease;
 }
+
+.delete-button{
+    padding: 3px;
+    background: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+/* using this for smooth transation */
+.delete-button img {
+    transition: filter 200ms;
+}
+.delete-button:hover img {
+    filter: invert(21%) sepia(88%) saturate(7486%) hue-rotate(357deg) brightness(94%) contrast(119%);
+}
+
+.custom-checkbox{
+    border: 2px solid var(--accent-color);
+    border-radius: 50%;
+    min-height: 20px;
+    min-width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    transition: 200ms ease;
+    cursor: pointer;
+}
+.custom-checkbox img {
+    opacity: 0;
+    transition: opacity 200ms;
+}
+
+/* .custom-checkbox:hover img,
+.custom-checkbox:focus-within img {
+    opacity: 1; /* Show checkmark on hover or when the input is focused 
+} 
+*/
+
+input[type="checkbox"]:checked ~ .custom-checkbox{
+    background-color: var(--accent-color);
+}
+
+input[type="checkbox"]:checked + .custom-checkbox img {
+    opacity: 1;
+}
+
+input[type="checkbox"]:checked ~ .todo-text {
+    text-decoration: line-through;
+    color: var(--secondary-color);
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+
+
+/* making responsive */
+@media(max-width: 500px){
+    html{
+        font-size: 12pt;
+    }
+    #add-button{
+        position: unset;
+        width: 100%;
+        margin-top: 10px;
+        padding: 15px;
+        height: auto;
+    }
+
+    h1{
+        margin-top: 50px;
+        font-size: 15vw;
+    }
+}
+
