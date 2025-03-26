@@ -38,7 +38,7 @@ Check out the live version here: [To-Do](grand-maamoul-28ecd2.netlify.app/)
 ## 📜 How to Run the Project Locally
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/shahriar10rifat/ToDo.git
    ```
 2. Open the project folder:
    ```sh
