@@ -3,7 +3,7 @@
 A simple and interactive To-Do List web application to manage your daily tasks efficiently. Built using **HTML, CSS, and JavaScript** with a clean and responsive design.
 
 ## 🚀 Live Demo
-Check out the live version here: [To-Do App](https://grand-maamoul-28ecd2.netlify.app/)
+Check out the live version here: [To-Do App](https://jazzy-lamington-5ebc47.netlify.app/)
 
 ## 🛠️ Technologies Used
 ### **Frontend:**
