@@ -26,7 +26,7 @@ Check out the live version here: [To-Do App](https://jazzy-lamington-5ebc47.netl
 ├── script.js          # Main JS file
 ├── index.html         # Main HTML file
 ├── JS code functionality breakdown       # written all js functions in details
-├── README.md         # Project documentation
+├── README.md          # Project documentation
 ```
 
 ## ✨ Features
